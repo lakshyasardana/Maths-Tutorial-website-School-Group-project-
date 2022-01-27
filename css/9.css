@@ -1,0 +1,53 @@
+/*
+#m1{
+    
+    padding: 10%;
+    background-color: #fefefe;
+    margin: 5% auto 15% auto; 
+    border: 1px solid #888;
+    width: 80%;
+}
+
+.panel-group{
+    padding: 5%;
+
+   position: relative;
+  padding: 3rem;
+  margin: 0.5rem;
+  background-color: rgba(255, 255, 255, 0.85);
+
+  border-radius: 0.5rem;
+
+
+   border: 0.25rem orange;
+}
+
+.panel-group:before{
+  border-radius: 0.5rem;
+  content: '';
+  position: absolute;
+  top: -0.5rem;
+  bottom: -0.5rem;
+  left: -0.5rem;
+  right: -0.5rem;
+  border: solid black;
+}
+*/
+
+.panel-group{
+
+  position: relative;
+  padding: 2rem;
+  margin: 1.5rem;
+   border-radius: 0.5rem;
+   background-color: rgba(230, 167, 86, 0.9);
+   
+
+
+}
+.outer{
+ border-radius: 0.5rem;
+  border: rgba(255, 255, 255, 0.85);
+   background-color: rgba(255, 255, 255, 0.85);
+
+}

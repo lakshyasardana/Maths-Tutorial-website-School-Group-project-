@@ -1,0 +1,25 @@
+h2{
+   text-align: center;
+   color: aliceblue;
+
+}
+
+
+.qaContainer{
+   /*border: 5px dashed black;*/
+   padding: 2%;
+   font-size: 20px;
+   background-color: aliceblue;  
+   
+    -webkit-box-shadow: 0 10px 5px #888888;
+  -moz-box-shadow: 0 10px 5px #888888;
+  box-shadow: 0 5px 5px #888888;
+
+}
+.qa{
+   padding: 1%;
+}
+.ans{
+   padding: 30px;
+}
+
