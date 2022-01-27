@@ -1,0 +1,59 @@
+   var x = 0;
+   var y = 0;
+   var z = 0;
+
+function changeSymbolObjective() {
+   var s = document.getElementById("symbolObjective");
+   
+   var ns = s.value;
+   x++;
+
+   
+   if(x% 2 != 0){
+         ns = "Objective Type Questions &#9652";
+         document.getElementById("symbolObjective").innerHTML = ns;
+      }
+   else{
+      ns = "Objective Type Questions &#9662";
+      document.getElementById("symbolObjective").innerHTML = ns;
+   }
+   
+}
+
+function changeSymbolSubjective() {
+   var s = document.getElementById("symbolSubjective");
+   
+   var ns = s.value;
+   y++;
+   
+   if(y % 2 != 0){
+         ns = "Subjective Type Questions &#9652";
+         document.getElementById("symbolSubjective").innerHTML = ns;
+        
+      }
+   else{
+      ns = "Subjective Type Questions &#9662";
+      document.getElementById("symbolSubjective").innerHTML = ns;
+      
+   }
+   
+}
+
+function changeSymbolTest() {
+   var s = document.getElementById("symbolTest");
+   
+   var ns = s.value;
+   z++;
+  
+   if(z % 2 != 0){
+         ns = "Test Series &#9652";
+         document.getElementById("symbolTest").innerHTML = ns;
+         
+      }
+   else{
+      ns = "Test Series &#9662";
+      document.getElementById("symbolTest").innerHTML = ns;
+      
+   }
+   
+}
